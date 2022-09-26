@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="un juego" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Platzriv - Jueguito online de carreras y calaveras</title>
+    <link rel="" href="" />
+    <title>copia barata de bomberman</title>
   </head>
   <body>
-    <div class="game-container">
+    <div class="contenedor">
       <canvas id="game"></canvas>
-
-      <div class="btns">
-        <button id="up">Arriba</button>
-        <button id="left">Izquierda</button>
-        <button id="right">Derecha</button>
-        <button id="down">Abajo</button>
+      <div class="controles">
+        <button id="arriba" value="38">↑</button>
+        <button id="izquierda" value="37">←</button>
+        <button id="derecha" value="39">→</button>
+        <button id="abajo" value="40">↓</button>
       </div>
-
-      <div class="messages">
-        <p>Vidas: <span id="lives"></span></p>
-        <p>Tiempo: <span id="time"></span></p>
-        <p>Tiempo: ⏰<span id="time"></span></p>
-        <p>Record: 🏁<span id="record"></span></p>
-        <p id="result"></p>
+      <div class="mensajes">
+        <!--pendiente-->
+        <p>Vidas : <span id="lives"></span></p>
+        <p>Tiempo : <span id="time"></span></p>
       </div>
     </div>
-
     <script src="./maps.js"></script>
     <script src="./game.js"></script>
   </body>
